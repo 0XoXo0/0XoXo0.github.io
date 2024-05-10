@@ -60,11 +60,9 @@ body {
 /*myTown Start*/
 .backgroundC {
   background-color: var(--dark-color);
+  height: 2000px;
 }
 
-body {
-  height: 2000px;/
-}
 
 .carousel-caption {
   position: absolute;
@@ -81,3 +79,52 @@ body {
 
 
 /*myTown End*/
+
+/*start home*/
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.textbox {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.textbox h2 {
+  color: #333;
+  font-size: 24px;
+}
+
+.textbox p {
+  color: #666;
+  font-size: 16px;
+}
+
+
+/*end home*/
+
+.city-info-container {
+  background-color: #f8f9fa;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-top: 20px;
+  /* تحديد المسافة بين الصور والمستطيل */
+}
+
+.city-info {
+  margin: 0 auto;
+  /* لجعل المستطيل يظهر في وسط الصفحة */
+  max-width: 800px;
+  /* لتحديد عرض المستطيل */
+}
+
+.city-info h2 {
+  color: #333;
+}
+
+.city-info p {
+  color: #666;
+}
