@@ -1,42 +1,54 @@
+/* تعريفات المتغيرات */
 :root {
   --dark-color: #19283f;
+  /* لون خلفية الصفحة */
   --green-color: #33d1cc;
+  /* لون خطوط الروابط */
   --reed-color: #ff3150;
+  /* لون زر الرئيسية */
 }
 
+/* تعريفات النصوص الرئيسية */
 body {
   font-family: "Roboto", sans-serif;
+  /* نوع الخط الرئيسي */
 }
 
+/* تعريفات زر الرئيسية */
 .main-btn {
   background-color: var(--reed-color);
 }
 
-/*Start Navbar*/
+/* بداية تخصيص الشريط العلوي */
 .navbar {
   background-color: var(--dark-color);
 }
 
 .navbar .navbar-nav .nav-link {
   color: white;
+  /* لون النص في الروابط */
 }
 
 .navbar .navbar-nav .nav-link.active,
 .navbar .navbar-nav .nav-link:focus,
 .navbar .navbar-nav .nav-link:hover {
   color: var(--green-color);
+  /* لون النص عند التحويم أو التركيز */
 }
 
 .navbar .search {
   border-left: 1px solid var(--green-color);
+  /* لون الخط في خانة البحث */
 }
 
 .navbar .search svg {
   color: var(--green-color);
+  /* لون أيقونة البحث */
 }
 
 .navbar .navbar-toggler {
   color: white;
+  /* لون أيقونة القائمة المنسدلة */
   font-size: 25px;
   border-color: white;
 }
@@ -45,24 +57,60 @@ body {
   box-shadow: none;
 }
 
-.navbar .navbar-toggler[aria-expaanded="true"] {
+.navbar .navbar-toggler[aria-expanded="true"] {
   border-color: var(--green-color);
+  /* لون الحدود عند فتح القائمة */
 }
 
-/*End Navbar*/
-/*Start Landing*/
+/* نهاية تخصيص الشريط العلوي */
+
+/* بداية تخصيص الصفحة الرئيسية */
 .landing {
   background-color: var(--dark-color);
+  /* لون خلفية الصفحة الرئيسية */
   min-height: calc(100vh - 76px);
+  /* حجم الارتفاع الأدنى للعناصر */
 }
 
-/*End Landing*/
-/*myTown Start*/
+.container {
+  width: 80%;
+  /* عرض الصندوق */
+  margin: 0 auto;
+  /* محاذاة الصندوق في الوسط */
+  padding: 20px;
+}
+
+.textbox {
+  background-color: #f0f0f0;
+  /* لون خلفية الصندوق */
+  padding: 20px;
+  border-radius: 10px;
+  /* شكل حواف الصندوق */
+}
+
+.textbox h2 {
+  color: #333;
+  /* لون عنوان الصندوق */
+  font-size: 24px;
+  /* حجم خط عنوان الصندوق */
+}
+
+.textbox p {
+  color: #666;
+  /* لون نص الصندوق */
+  font-size: 16px;
+  /* حجم خط نص الصندوق */
+}
+
+/* نهاية تخصيص الصفحة الرئيسية */
+
+/* بداية تخصيص قسم "myTown" */
 .backgroundC {
   background-color: var(--dark-color);
+  /* لون خلفية الصفحة */
   height: 2000px;
+  /* ارتفاع القسم */
 }
-
 
 .carousel-caption {
   position: absolute;
@@ -70,61 +118,47 @@ body {
   left: 0;
   right: 0;
   background-color: rgba(0, 0, 0, 0.5);
-  /* لون خلفية النص */
+  /* لون خلفية النص في شريط الصور */
   color: white;
-  /* لون النص */
+  /* لون النص في شريط الصور */
   padding: 10px;
-  /* تباعد النص عن الحواف */
 }
-
-
-/*myTown End*/
-
-/*start home*/
-.container {
-  width: 80%;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-.textbox {
-  background-color: #f0f0f0;
-  padding: 20px;
-  border-radius: 10px;
-}
-
-.textbox h2 {
-  color: #333;
-  font-size: 24px;
-}
-
-.textbox p {
-  color: #666;
-  font-size: 16px;
-}
-
-
-/*end home*/
 
 .city-info-container {
   background-color: #f8f9fa;
+  /* لون خلفية عنصر "مدينتي" */
   border: 1px solid #ccc;
+  /* لون حدود عنصر "مدينتي" */
   border-radius: 10px;
+  /* شكل حواف عنصر "مدينتي" */
   margin-top: 20px;
-  /* تحديد المسافة بين الصور والمستطيل */
+  /* المسافة بين عنصر "مدينتي" والعناصر الأخرى */
 }
 
 .city-info {
   margin: 0 auto;
-  /* لجعل المستطيل يظهر في وسط الصفحة */
+  /* توسيط محتوى عنصر "مدينتي" */
   max-width: 800px;
-  /* لتحديد عرض المستطيل */
+  /* أقصى عرض لعنصر "مدينتي" */
 }
 
 .city-info h2 {
   color: #333;
+  /* لون عنوان عنصر "مدينتي" */
 }
 
 .city-info p {
   color: #666;
+  /* لون نص عنصر "مدينتي" */
 }
+
+/* نهاية تخصيص قسم "myTown" */
+/*بداية صفحةCV*/
+.backgroundC {
+  background-color: var(--dark-color);
+  /* لون خلفية الصفحة */
+  height: 2000px;
+  /* ارتفاع القسم */
+}
+
+/*نهاية صفحةCV*/
